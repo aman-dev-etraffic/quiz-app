@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scrollbar-width: thin; /* Firefox */
+}
+
+*::-webkit-scrollbar {
+  width: 8px;
+  background-color: grey;
+}
+
+a {
+  text-decoration: inherit;
+  color: inherit;
+}
+
+.app {
+  min-height: 98.5vh;
+  /* border: 8px solid #39445a93;
+  background-color: white; 
+  margin: 5px;
+  padding: 5px; */
+}
+
+.mainImg {
+  padding: 10px 0 5px 0;
+}
+.main_header {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+.nav_item {
+  width: 8%;
+}
+.nav_item img {
+  width: 100%;
+}
+.navbar.custom_nav {
+  padding-top: 10px;
+  padding-bottom: 0;
+}
+.footer {
+  background: rgba(255, 255, 255, 0.7);
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer a:not(:last-child) {
+  margin-right: 15px;
+}
+.footer a {
+  font-size: 24px;
+}
+.footer a.linkedin svg {
+  fill: #0a66c2;
+}
+.footer a.facebook svg {
+  fill: #1877f2
+}
+.footer a.skype svg {
+  fill: #00aff0
+}
+.footer a.whatsapp svg {
+  fill: #25d366
+}
+div#root {
+  background: #f4f5ff;
+}
+.custom_nav_item span{
+  font-size: 35px;
+  font-weight: 450;
+}
+/* .MuiOutlinedInput-input{
+  padding: 10px 14px!important;
+}
+.MuiInputLabel-outlined {
+  transform: translate(14px, 10px) scale(1)!important;
+}
+.MuiButton-containedPrimary{
+  background-color: rgb(114 127 219)!important;
+} */
+@media(max-width: 600px){
+  .nav_item{
+    width: 14%;
+  }
+  .custom_nav_item span{
+    font-size: 25px;
+  }
+}

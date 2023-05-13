@@ -1,0 +1,32 @@
+.result {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  /* height: 60vh; */
+  text-align: center;
+}
+.result_text .title{
+  font-size: 4vw;
+  font-weight: bold;
+}
+.result_image, .result_text{
+  width: 50%;
+}
+@media(max-width: 600px){
+  .result_image, .result_text{
+    width: 100%;
+  }
+  .result_text .title {
+    width: 50%;
+  }
+  .result_text {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .result_text .MuiButton-containedSizeLarge {
+    padding: 8px 15px;
+  }
+}

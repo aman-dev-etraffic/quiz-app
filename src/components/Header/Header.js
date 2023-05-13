@@ -11,7 +11,7 @@ const Header = () => {
               <Link to="/"><img src="/quiz-fav.png" alt=""/></Link>
             </div>
             <div className="custom_nav_item">
-              <span>Kaun Banega Crorepati</span>
+              <span>Who Wants to Be a Millionaire?</span>
             </div>
           </div>
         </div>
